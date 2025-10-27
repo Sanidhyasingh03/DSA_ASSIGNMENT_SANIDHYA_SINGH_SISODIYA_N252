@@ -1,32 +1,3 @@
-# 🚗 DSA Assignment – Problem 1 (Array): CARVANS – CodeChef ✅
- 
----
- 
-## 📌 Problem Description
-Cars are moving in a single lane.  
-A car cannot go faster than the car in front of it.  
-We need to count how many cars can maintain proper speed.
- 
----
- 
-## 📥 Input Format
-T -> number of test cases
-M -> number of cars
-Speeds -> space separated integers
-
----
- 
-## 📤 Expected Output
-Print number of cars maintaining valid speed per test case.
-3
----
- 
-## 🧩 Sample Input
-3 3 10 7 6 5 10 10 10 10 10 4 8 3 6 11
-
-### ✅ Output
-3 5 2
-
 # ----------------------------------------------------------
 # CodeChef Problem: CARVANS
 # Concept: Array traversal and speed comparison
