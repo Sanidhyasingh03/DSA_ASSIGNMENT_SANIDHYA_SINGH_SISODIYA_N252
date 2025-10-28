@@ -56,4 +56,73 @@ for _ in range(t):
             count += 1
  
     print("✅ Number of cars maintaining speed:", count)
+
+
+
+
+
+
+# ✅ DSA Assignment – Problem 2 (Stack)
+ 
+## 🔹 Topic: Balanced Parentheses using Stack
+ 
+### 📘 Description
+This program checks whether the given bracket expression is **balanced** using the **Stack** data structure.  
+Brackets must be properly opened and closed in correct order.
+ 
+Example of Balanced ✅:
+{[()]}
+
+Example of Not Balanced ❌:
+{[(])}
+
+---
+ 
+### 📥 Input Format
+- A single string containing only brackets: `() {} []`
+ 
+---
+ 
+### 📤 Output Format
+- Print **Balanced ✅** if brackets are properly nested
+- Print **Not Balanced ❌** if mismatch occurs
+ 
+---
+ 
+### ✅ Sample Input / Output
+| Input | Output |
+|-------|--------|
+| `{[()]}` | Balanced ✅ |
+| `{[(])}` | Not Balanced ❌ |
+ 
+---
+ 
+### 🧠 Algorithm
+1️⃣ Traverse each character  
+2️⃣ Push opening brackets → Stack  
+3️⃣ For closing brackets → check last pushed item  
+4️⃣ If mismatch → return Not Balanced  
+5️⃣ If stack empty at end → return Balanced ✅  
+ 
+---
+ 
+### 🧑‍💻 Code Screenshot
+📌 `/screenshots/problem2_code.png`
+ 
+### 🖥 Output Screenshot
+📌 `/screenshots/problem2_output.png`
+ 
+---
+ 
+### 🧰 Tools Used
+- Python 3
+- VS Code
+ 
+---
+ 
+### 👤 Submitted By
+**Sanidhya Singh Sisodiya**  
+MBA Tech – Computer Engineering  
+Roll No: N252
+ 
     
