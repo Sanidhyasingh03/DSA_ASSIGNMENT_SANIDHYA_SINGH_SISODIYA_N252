@@ -1,128 +1,85 @@
-# 🚗 DSA Assignment – Problem 1 (Array): CARVANS – CodeChef ✅
+# 🚀 DSA Assignment – CodeChef Problems (Arrays + Stack)
  
----
- 
-## 📌 Problem Description
-Cars are moving in a single lane.  
-A car cannot go faster than the car in front of it.  
-We need to count how many cars can maintain proper speed.
- 
----
- 
-## 📥 Input Format
-T -> number of test cases
-M -> number of cars
-Speeds -> space separated integers
-
----
- 
-## 📤 Expected Output
-Print number of cars maintaining valid speed per test case.
-3
----
- 
-## 🧩 Sample Input
-3 3 10 7 6 5 10 10 10 10 10 4 8 3 6 11
-
-### ✅ Output
-3 5 2
-
-# ----------------------------------------------------------
-# CodeChef Problem: CARVANS
-# Concept: Array traversal and speed comparison
-# ----------------------------------------------------------
- 
-# Input: Number of test cases
-t = int(input("Enter number of test cases: "))
- 
-for _ in range(t):
-    # Input: Number of cars
-    n = int(input("\nEnter number of cars: "))
- 
-    # Input: Speeds of each car separated by spaces
-    speeds = list(map(int, input("Enter speeds of cars: ").split()))
- 
-    # If speeds entered are LESS than number of cars → ERROR
-    if len(speeds) != n:
-        print("⚠️ Please enter exactly", n, "speeds!")
-        continue  # skip this test case
- 
-    count = 1  # First car always maintains speed
- 
-    for i in range(1, n):
-        if speeds[i] > speeds[i - 1]:
-            speeds[i] = speeds[i - 1]
-        else:
-            count += 1
- 
-    print("✅ Number of cars maintaining speed:", count)
-
-
-
-
-
-
-# ✅ DSA Assignment – Problem 2 (Stack)
- 
-## 🔹 Topic: Balanced Parentheses using Stack
- 
-### 📘 Description
-This program checks whether the given bracket expression is **balanced** using the **Stack** data structure.  
-Brackets must be properly opened and closed in correct order.
- 
-Example of Balanced ✅:
-{[()]}
-
-Example of Not Balanced ❌:
-{[(])}
-
----
- 
-### 📥 Input Format
-- A single string containing only brackets: `() {} []`
- 
----
- 
-### 📤 Output Format
-- Print **Balanced ✅** if brackets are properly nested
-- Print **Not Balanced ❌** if mismatch occurs
- 
----
- 
-### ✅ Sample Input / Output
-| Input | Output |
-|-------|--------|
-| `{[()]}` | Balanced ✅ |
-| `{[(])}` | Not Balanced ❌ |
- 
----
- 
-### 🧠 Algorithm
-1️⃣ Traverse each character  
-2️⃣ Push opening brackets → Stack  
-3️⃣ For closing brackets → check last pushed item  
-4️⃣ If mismatch → return Not Balanced  
-5️⃣ If stack empty at end → return Balanced ✅  
- 
----
- 
-### 🧑‍💻 Code Screenshot
-📌 `/screenshots/problem2_code.png`
- 
-### 🖥 Output Screenshot
-📌 `/screenshots/problem2_output.png`
- 
----
- 
-### 🧰 Tools Used
-- Python 3
-- VS Code
- 
----
- 
-### 👤 Submitted By
+### 👨‍🎓 Submitted By:
 **Sanidhya Singh Sisodiya**  
 MBA Tech – Computer Engineering  
-Roll No: N252
+Roll No: **N252**
  
-    
+---
+ 
+## 📘 Overview
+This assignment includes **two programming problems** based on  
+📌 *Array Traversal* and 📌 *Stack Data Structure*  
+Problems are taken from **CodeChef** and implemented using **Python 3** ✅  
+Each task contains:
+✅ Problem description  
+✅ Sample input-output  
+✅ Python source code  
+✅ Output screenshots  
+ 
+---
+ 
+# ✅ Problem 1 – CARVANS (Array)
+ 
+### 🔹 Description
+Cars are moving in a single lane. A car must not exceed the speed of the car ahead.  
+We count how many cars can maintain their valid speed.
+ 
+### 📥 Input Format
+- Number of test cases  
+- Number of cars per test case  
+- Speeds in order from front to back  
+ 
+### 📤 Output Format
+Print number of cars that maintain speed.
+ 
+### 📌 Screenshots
+📎 Code → `screenshots/problem1_code.png`  
+📎 Output → `screenshots/problem1_output.png`
+ 
+---
+ 
+# ✅ Problem 2 – Balanced Parentheses (Stack)
+ 
+### 🔹 Description
+Given a string of brackets `() {} []`, check whether it is **Balanced** using Stack.
+ 
+### ✅ Rules
+✔ Brackets must open & close correctly  
+✔ Must follow correct order (nested properly)
+ 
+### 📌 Screenshots
+📎 Code → `screenshots/problem2_code.png`  
+📎 Output → `screenshots/problem2_output.png`
+ 
+---
+ 
+## 🛠️ Technologies Used
+| Technology | Purpose |
+|-----------|---------|
+| Python 3 | Coding |
+| VS Code | Execution |
+| GitHub | Version Control |
+ 
+---
+ 
+## ✅ Repository Structure
+
+📦 DSA_Assignment ┣ 📁 screenshots ┃ ┣ 
+📸 problem1_code.png ┃ ┣ 📸 
+problem1_output.png ┃ ┣ 📸 
+problem2_code.png ┃ ┗ 📸 
+problem2_output.png ┣ 🐍 
+Array_Carvans.py ┣ 🐍 Stack_Balanced.py 
+┗ 📄 README.md
+
+
+
+## 🔚 Conclusion
+✔ Both tasks completed successfully  
+✔ Screenshots attached for validation  
+✔ Concepts of Arrays & Stacks demonstrated clearly
+ 
+---
+ 
+### ⭐ Thank You!
