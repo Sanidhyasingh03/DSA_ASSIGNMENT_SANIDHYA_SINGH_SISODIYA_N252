@@ -1,4 +1,4 @@
-# 🚀 DSA Assignment – CodeChef Problems (Arrays + Stack)
+# 🚀 DSA Assignment – CodeChef and Leetcode Problems (Arrays + Stack)
  
 ### 👨‍🎓 Submitted By:
 **Sanidhya Singh Sisodiya**  
@@ -10,7 +10,7 @@ Roll No: **N252**
 ## 📘 Overview
 This assignment includes **two programming problems** based on  
 📌 *Array Traversal* and 📌 *Stack Data Structure*  
-Problems are taken from **CodeChef** and implemented using **Python 3** ✅  
+Problems are taken from **CodeChef** and **LeetCode** and implemented using **both Python and C++** ✅  
 Each task contains:
 ✅ Problem description  
 ✅ Sample input-output  
@@ -22,7 +22,8 @@ Each task contains:
 # ✅ Problem 1 – CARVANS (Array)
  
 ### 🔹 Description
-Cars are moving in a single lane. A car must not exceed the speed of the car ahead.  
+Cars are moving in a single lane. 
+A car must not exceed the speed of the car ahead.  
 We count how many cars can maintain their valid speed.
  
 ### 📥 Input Format
@@ -57,7 +58,7 @@ Given a string of brackets `() {} []`, check whether it is **Balanced** using St
 ## 🛠️ Technologies Used
 | Technology | Purpose |
 |-----------|---------|
-| Python 3 | Coding |
+| Python 3 & C++ | Coding |
 | VS Code | Execution |
 | GitHub | Version Control |
  
@@ -67,8 +68,11 @@ Given a string of brackets `() {} []`, check whether it is **Balanced** using St
 
 📦 DSA_Assignment ┣ 📁 screenshots ┃ ┣ 
 📸 problem1_code.png ┃ ┣ 📸 
+problem1_code C++.png┃ ┣ 📸
 problem1_output.png ┃ ┣ 📸 
-problem2_code.png ┃ ┗ 📸 
+problem2_code.png ┃ ┣ 📸  
+problem2_code C++ A.png ┃ ┣ 📸 
+problem2_code C++ B.png ┃ ┗ 📸
 problem2_output.png ┣ 🐍 
 Array_Carvans.py ┣ 🐍 Stack_Balanced.py 
 ┗ 📄 README.md
@@ -83,3 +87,4 @@ Array_Carvans.py ┣ 🐍 Stack_Balanced.py
 ---
  
 ### ⭐ Thank You!
+
